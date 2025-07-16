@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero, .catalog, .property-detail, .map-section {
+    padding: 2em;
+    text-align: center;
+}
+
+.property-card {
+    display: inline-block;
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.property-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.property-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 10px 20px;
+    background: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.map-placeholder {
+    background: #eee;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #aaa;
+    border-radius: 8px;
+}
